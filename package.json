@@ -1,0 +1,51 @@
+{
+  "name": "interactive-cli-template",
+  "version": "1.0.0",
+  "description": "A beautiful, feature-rich, and interactive CLI template built with TypeScript, React, and Ink.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "interactive-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "node --loader ts-node/esm --watch src/index.tsx",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "interactive",
+    "template",
+    "typescript",
+    "ink",
+    "react"
+  ],
+  "author": "Your Name or GitHub Username",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/interactive-cli-template.git"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "figlet": "^1.8.1",
+    "ink": "^6.0.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "inquirer": "^12.6.3",
+    "react": "^19.1.0",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.7",
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
